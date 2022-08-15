@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/backround2blue"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/UPimage"
+        app:srcCompat="@drawable/iicon"
+        android:layout_width="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="make your CV"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/TextPersonName"
+        android:layout_width="342dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_custom2"
+        android:drawableStart="@drawable/person_focused"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textColorHint="#AB6C6565"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/TextPersonAge"
+        android:layout_width="342dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_custom2"
+        android:drawableStart="@drawable/age_focused"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Age"
+        android:inputType="number"
+        android:paddingStart="10dp"
+        android:textColorHint="#AB6C6565"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/TextPersonJob"
+        android:layout_width="342dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_custom2"
+        android:drawableStart="@drawable/job"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Your Job"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textColorHint="#AB6C6565"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/TextPersonPhoneNumber"
+        android:layout_width="342dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_custom2"
+        android:drawableStart="@drawable/phone_focused"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:textColorHint="#AB6C6565"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/TextPersonEmail"
+        android:layout_width="342dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/et_custom2"
+        android:drawableStart="@drawable/email_focused"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-smallcaps"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textColorHint="#AB6C6565"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="210dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_c"
+        android:backgroundTint="#54ACA4"
+        android:enabled="false"
+        android:fontFamily="casual"
+        android:text="Next"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</LinearLayout>

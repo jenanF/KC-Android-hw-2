@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround2blue"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".YourCV_screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Your  CV"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="100dp"
+        app:srcCompat="@drawable/person"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TextViewPersonName"
+            android:layout_width="105dp"
+            android:layout_height="39dp"
+            android:drawableStart="@drawable/person_focused"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Name :" />
+
+        <TextView
+            android:id="@+id/textCVname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TextViewPersonAge"
+            android:layout_width="105dp"
+            android:layout_height="39dp"
+            android:drawableStart="@drawable/age_focused"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Age :" />
+
+        <TextView
+            android:id="@+id/textCVage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TextViewPersonJob"
+            android:layout_width="120dp"
+            android:layout_height="39dp"
+            android:drawableStart="@drawable/job"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Your Job :" />
+
+        <TextView
+            android:id="@+id/textCVjob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TextViewPersonPhone"
+            android:layout_width="152dp"
+            android:layout_height="39dp"
+            android:drawableStart="@drawable/phone_focused"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Phone Number :" />
+
+        <TextView
+            android:id="@+id/textCVphone"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:text="call now"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/TextViewPersonEmail"
+            android:layout_width="105dp"
+            android:layout_height="39dp"
+            android:drawableStart="@drawable/email_focused"
+            android:drawablePadding="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:paddingStart="10dp"
+            android:text="Name :" />
+
+        <TextView
+            android:id="@+id/textCVemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
